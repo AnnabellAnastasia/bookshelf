@@ -19,15 +19,8 @@ Bookshelf is a simple **React application** that allows users to **manage their 
 - **React Context API** (Global state management)
 - **JSON Server** (Mock backend)
 - **Picsum Photos API** (Book thumbnails)
-
-
-## 🛠 Technologies Used
-
-- **React.js** - Frontend UI framework
-- **React Context API** - State management
-- **Axios** - HTTP client for API requests
-- **JSON Server** - Mock backend
 - **HTML & CSS** - Styling and layout
+
 
 ## 📦 Installation & Setup
 
@@ -35,3 +28,17 @@ Bookshelf is a simple **React application** that allows users to **manage their 
 ```sh
 git clone https://github.com/AnnabellAnastasia/bookshelf.git
 
+cd bookshelf
+
+npm install
+
+npx json-server --watch db.json --port 3001
+
+npm start
+
+
+## Usage
+- Adding a Book: Enter a title and click "Create!".
+- Editing a Book: Click the "Edit" button, modify the title, and click "Save".
+- Deleting a Book: Click the "Delete" button next to the book.
+🤝 Contributing
